@@ -37,7 +37,7 @@ import AppContext from '../../context';
     <>
   {onFavorite && (
     <div className={styles.favorite} onClick={onClickFavorite}>
-    <img src={isFavorite ? "./img/liked.svg" : "./img/unliked.svg"} alt="Unliked"/>
+    <img src={isFavorite ? "img/liked.svg" : "img/unliked.svg"} alt="Unliked"/>
   </div>
   )}
   <img width={100} hight={135} src={imageUrl} alt="Sneakers"/>
@@ -48,7 +48,7 @@ import AppContext from '../../context';
         <b>{price}грн.</b> 
     </div>
   {onPlus && (
-  <img className={styles.Plus} onClick={onClickPlus} src={isItemAdded(id)  ? "./img/btn-cherked.svg" : "./img/btn-plus.svg"} alt="Plus"
+  <img className={styles.Plus} onClick={onClickPlus} src={isItemAdded(id)  ? "img/btn-cherked.svg" : "img/btn-plus.svg"} alt="Plus"
   />
   )}
 </div>

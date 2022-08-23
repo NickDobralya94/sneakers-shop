@@ -33,12 +33,12 @@ import React from 'react';
           <div className="justify-between d-flex aligh-center mb-40">
             <h1>{searchValue ? `Поиско по запросу: "${searchValue}"`: 'Все красовки'}</h1>
             <div className="search-block d-flex">
-              <img src="./img/serch.svg" alt="Serch"/>
+              <img src="img/serch.svg" alt="Serch"/>
               {searchValue && 
               <img 
                 onClick={() => setSearchValue ('')}
                 className="clear cu-p" 
-                src="/img/btn-remuve.svg" 
+                src="img/btn-remuve.svg" 
                 alt="Clear"
                 />
               }

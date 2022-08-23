@@ -41,7 +41,7 @@ const {data} = await axios.post('https://62f0fd3ee2bca93cd241924c.mockapi.io/ord
             <div className={styles.drawer}>
             <h2 className="d-flex justify-between mb-30">
                 Корзина 
-                <img onClick={onClose} className="cu-p" src="/img/btn-remuve.svg" alt="Выкл"/>    
+                <img onClick={onClose} className="cu-p" src="img/btn-remuve.svg" alt="Выкл"/>    
             </h2>
 
             {
@@ -62,7 +62,7 @@ const {data} = await axios.post('https://62f0fd3ee2bca93cd241924c.mockapi.io/ord
                         <img 
                             onClick={() => onRemove(obj.id)} 
                             className="removeBtn" 
-                            src="/img/btn-remuve.svg"
+                            src="img/btn-remuve.svg"
                             alt="Remove"/>
                         </div>
                 ))}
@@ -92,7 +92,7 @@ const {data} = await axios.post('https://62f0fd3ee2bca93cd241924c.mockapi.io/ord
                     isOrderComplete 
                     ? `Ваш заказ #${orderId} скоро будет передан курьерской доставке`
                     :"Добавьте хотябы одну пару кросовок чтобы сделать заказ"}
-                image={isOrderComplete ? "/img/complite-order.png" : "/img/empty-cart.png"}
+                image={isOrderComplete ? "img/complite-order.png" : "img/empty-cart.png"}
                 />
             )}  
         </div> 
