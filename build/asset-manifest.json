@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NickDobralya94/sneakers-shop.git/static/css/main.77dc16bd.css",
+    "main.js": "/NickDobralya94/sneakers-shop.git/static/js/main.99125014.js",
+    "index.html": "/NickDobralya94/sneakers-shop.git/index.html",
+    "main.77dc16bd.css.map": "/NickDobralya94/sneakers-shop.git/static/css/main.77dc16bd.css.map",
+    "main.99125014.js.map": "/NickDobralya94/sneakers-shop.git/static/js/main.99125014.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77dc16bd.css",
+    "static/js/main.99125014.js"
+  ]
+}
